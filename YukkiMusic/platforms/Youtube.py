@@ -49,7 +49,7 @@ class YouTubeAPI:
         self.reg = re.compile(
             r"\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])"
         )
-        self.api_base = "https://sdvytdl-3b7624f0b8a9.herokuapp.com/api/vidssave?link="
+        self.api_base = "https://sdvyt-dl-53933a861e76.herokuapp.com/api/vidssave?link="
 
     async def exists(
         self, link: str, videoid: Union[bool, str] = None
